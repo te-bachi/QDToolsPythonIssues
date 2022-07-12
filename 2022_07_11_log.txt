@@ -1,0 +1,336 @@
+[2022-07-08 17:12:38,979] [DEBUG] [MainWindow          ] start GUI
+[2022-07-08 17:12:40,093] [DEBUG] [LiveWidget          ] camera list:
+[2022-07-08 17:12:40,094] [DEBUG] [LiveWidget          ]   1800 U-511c
+[2022-07-08 17:12:42,060] [DEBUG] [VimbaThread         ] setCamera
+[2022-07-08 17:12:42,061] [DEBUG] [VimbaThread         ] thread run
+[2022-07-08 17:12:42,749] [DEBUG] [LiveWidget          ] minExposure=150.182, maxExposure=9999987.219
+[2022-07-08 17:14:24,713] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_171423_902.jpg"
+[2022-07-08 17:14:37,234] [DEBUG] [VimbaThread         ] onFeatureAuto: balance=Off
+[2022-07-08 17:14:37,781] [DEBUG] [VimbaThread         ] onFeatureAuto: exposure=Off
+[2022-07-08 17:19:10,983] [DEBUG] [VimbaThread         ] onFeatureAuto: exposure=Continuous
+[2022-07-08 17:19:11,573] [DEBUG] [VimbaThread         ] onFeatureAuto: balance=Continuous
+[2022-07-08 17:19:20,433] [DEBUG] [VimbaThread         ] onFeatureAuto: balance=Off
+[2022-07-08 17:19:21,065] [DEBUG] [VimbaThread         ] onFeatureAuto: exposure=Off
+[2022-07-08 17:44:24,342] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_174423_994.jpg"
+[2022-07-08 18:14:25,432] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_181424_644.jpg"
+[2022-07-08 18:44:25,629] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_184425_162.jpg"
+[2022-07-08 19:14:27,366] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_191426_765.jpg"
+[2022-07-08 19:44:28,804] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_194428_335.jpg"
+[2022-07-08 20:14:29,382] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_201428_892.jpg"
+[2022-07-08 20:44:29,875] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_204429_410.jpg"
+[2022-07-08 21:14:30,404] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_211429_945.jpg"
+[2022-07-08 21:44:31,420] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_214430_572.jpg"
+[2022-07-08 22:14:31,621] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_221431_230.jpg"
+[2022-07-08 22:44:32,258] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_224431_883.jpg"
+[2022-07-08 23:14:32,706] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_231432_355.jpg"
+[2022-07-08 23:44:33,324] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220708_234432_941.jpg"
+[2022-07-09 00:14:34,050] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_001433_683.jpg"
+[2022-07-09 00:44:34,613] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_004434_215.jpg"
+[2022-07-09 01:14:35,126] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_011434_799.jpg"
+[2022-07-09 01:44:35,836] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_014435_465.jpg"
+[2022-07-09 02:14:37,438] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_021437_100.jpg"
+[2022-07-09 02:44:38,053] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_024437_678.jpg"
+[2022-07-09 03:14:38,976] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_031438_400.jpg"
+[2022-07-09 03:44:39,505] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_034438_982.jpg"
+[2022-07-09 04:14:41,177] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_041440_545.jpg"
+[2022-07-09 04:44:41,807] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_044441_233.jpg"
+[2022-07-09 05:14:42,824] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_051442_114.jpg"
+Traceback (most recent call last):
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 40, in sizeHint
+    return QSize(width, self.heightForWidth(width))
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 23, in heightForWidth
+    return self._pixmap.height() * width / self._pixmap.width()
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 40, in sizeHint
+    return QSize(width, self.heightForWidth(width))
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 23, in heightForWidth
+    return self._pixmap.height() * width / self._pixmap.width()
+ZeroDivisionError: division by zero
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x00000214828F5870>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 140, in __frameHandler
+    self.frameCopyRaw.convert_pixel_format(PixelFormat.Rgb16)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\util\runtime_type_check.py", line 60, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 818, in convert_pixel_format
+    buf = (ctypes.c_ubyte * (img_size + anc_size))()
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x00000214828F5870>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+[2022-07-09 05:44:43,372] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_054442_938.jpg"
+Traceback (most recent call last):
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 40, in sizeHint
+    return QSize(width, self.heightForWidth(width))
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 23, in heightForWidth
+    return self._pixmap.height() * width / self._pixmap.width()
+ZeroDivisionError: division by zero
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x00000214828F5870>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x00000214828F5870>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 139, in __frameHandler
+    self.frameCopyRaw = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x00000214828F5870>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+[2022-07-09 06:14:43,808] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_061443_576.jpg"
+[2022-07-09 06:44:44,351] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_064444_120.jpg"
+[2022-07-09 07:14:44,559] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_071444_323.jpg"
+[2022-07-09 07:44:44,813] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_074444_585.jpg"
+[2022-07-09 08:14:45,161] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_081444_927.jpg"
+[2022-07-09 08:44:45,605] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_084445_365.jpg"
+[2022-07-09 09:14:46,143] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_091445_909.jpg"
+[2022-07-09 09:44:46,637] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_094446_404.jpg"
+[2022-07-09 10:14:46,998] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_101446_758.jpg"
+[2022-07-09 10:44:47,301] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_104447_058.jpg"
+[2022-07-09 11:14:47,800] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_111447_566.jpg"
+[2022-07-09 11:44:48,234] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_114448_004.jpg"
+[2022-07-09 12:14:48,635] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_121448_400.jpg"
+[2022-07-09 12:44:49,086] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_124448_858.jpg"
+[2022-07-09 13:14:49,542] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_131449_272.jpg"
+[2022-07-09 13:44:49,832] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_134449_603.jpg"
+[2022-07-09 14:14:50,023] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_141449_795.jpg"
+[2022-07-09 14:44:50,378] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_144450_148.jpg"
+[2022-07-09 15:14:50,676] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_151450_451.jpg"
+[2022-07-09 15:44:50,990] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_154450_761.jpg"
+[2022-07-09 16:14:51,355] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_161451_128.jpg"
+[2022-07-09 16:44:51,821] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_164451_597.jpg"
+[2022-07-09 17:14:52,356] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_171452_103.jpg"
+[2022-07-09 17:44:52,735] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_174452_504.jpg"
+[2022-07-09 18:14:53,255] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_181453_025.jpg"
+[2022-07-09 18:44:53,669] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_184453_446.jpg"
+[2022-07-09 19:14:54,018] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_191453_791.jpg"
+[2022-07-09 19:44:54,466] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_194454_240.jpg"
+[2022-07-09 20:14:54,879] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_201454_655.jpg"
+[2022-07-09 20:44:55,386] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_204455_155.jpg"
+[2022-07-09 21:14:55,791] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_211455_564.jpg"
+[2022-07-09 21:44:56,153] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_214455_927.jpg"
+[2022-07-09 22:14:56,373] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_221456_145.jpg"
+[2022-07-09 22:44:56,825] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_224456_598.jpg"
+[2022-07-09 23:14:57,107] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_231456_880.jpg"
+[2022-07-09 23:44:57,447] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220709_234457_209.jpg"
+[2022-07-10 00:14:57,741] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_001457_514.jpg"
+[2022-07-10 00:44:58,081] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_004457_856.jpg"
+[2022-07-10 01:14:58,396] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_011458_163.jpg"
+[2022-07-10 01:44:58,702] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_014458_474.jpg"
+[2022-07-10 02:14:59,070] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_021458_837.jpg"
+[2022-07-10 02:44:59,440] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_024459_212.jpg"
+[2022-07-10 03:14:59,697] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_031459_473.jpg"
+[2022-07-10 03:45:00,068] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_034459_825.jpg"
+[2022-07-10 04:15:00,360] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_041500_133.jpg"
+[2022-07-10 04:45:00,894] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_044500_671.jpg"
+[2022-07-10 05:15:01,277] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_051501_052.jpg"
+[2022-07-10 05:45:01,640] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_054501_412.jpg"
+[2022-07-10 06:15:02,155] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_061501_924.jpg"
+[2022-07-10 06:45:02,481] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_064502_230.jpg"
+[2022-07-10 07:15:02,925] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_071502_656.jpg"
+[2022-07-10 07:45:03,155] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_074502_927.jpg"
+[2022-07-10 08:15:03,469] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_081503_246.jpg"
+[2022-07-10 08:45:03,609] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_084503_384.jpg"
+[2022-07-10 09:15:03,990] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_091503_765.jpg"
+[2022-07-10 09:45:04,514] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_094504_254.jpg"
+[2022-07-10 10:15:04,778] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_101504_554.jpg"
+[2022-07-10 10:45:05,116] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_104504_892.jpg"
+[2022-07-10 11:15:05,492] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_111505_261.jpg"
+[2022-07-10 11:45:05,845] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_114505_618.jpg"
+[2022-07-10 12:15:06,266] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_121506_032.jpg"
+[2022-07-10 12:45:06,391] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_124506_167.jpg"
+[2022-07-10 13:15:06,901] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_131506_672.jpg"
+[2022-07-10 13:45:07,423] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_134507_196.jpg"
+[2022-07-10 14:15:07,814] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_141507_586.jpg"
+[2022-07-10 14:45:08,415] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_144508_183.jpg"
+[2022-07-10 15:15:08,736] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_151508_498.jpg"
+[2022-07-10 15:45:09,229] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_154508_995.jpg"
+[2022-07-10 16:15:09,597] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_161509_326.jpg"
+[2022-07-10 16:45:10,075] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_164509_823.jpg"
+[2022-07-10 17:15:11,001] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_171510_372.jpg"
+[2022-07-10 17:45:10,860] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_174510_629.jpg"
+[2022-07-10 18:15:11,092] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_181510_863.jpg"
+[2022-07-10 18:45:11,511] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_184511_282.jpg"
+[2022-07-10 19:15:11,935] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_191511_710.jpg"
+[2022-07-10 19:45:12,451] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_194512_227.jpg"
+[2022-07-10 20:15:12,830] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_201512_598.jpg"
+[2022-07-10 20:45:13,294] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_204513_059.jpg"
+[2022-07-10 21:15:13,646] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_211513_418.jpg"
+[2022-07-10 21:45:14,060] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_214513_837.jpg"
+[2022-07-10 22:15:14,607] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_221514_378.jpg"
+[2022-07-10 22:45:14,865] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_224514_628.jpg"
+[2022-07-10 23:15:15,370] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_231514_993.jpg"
+[2022-07-10 23:45:15,523] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220710_234515_294.jpg"
+[2022-07-11 00:15:16,067] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_001515_837.jpg"
+[2022-07-11 00:45:16,454] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_004516_220.jpg"
+[2022-07-11 01:15:16,781] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_011516_541.jpg"
+[2022-07-11 01:45:17,057] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_014516_813.jpg"
+[2022-07-11 02:15:17,477] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_021517_248.jpg"
+[2022-07-11 02:45:17,734] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_024517_507.jpg"
+[2022-07-11 03:15:18,496] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_031518_221.jpg"
+[2022-07-11 03:45:19,022] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_034518_789.jpg"
+[2022-07-11 04:15:19,374] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_041519_150.jpg"
+[2022-07-11 04:45:19,736] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_044519_510.jpg"
+[2022-07-11 05:15:20,196] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_051519_794.jpg"
+[2022-07-11 05:45:20,419] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_054520_183.jpg"
+[2022-07-11 06:15:20,758] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_061520_530.jpg"
+[2022-07-11 06:45:21,134] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_064520_901.jpg"
+[2022-07-11 07:15:21,401] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_071521_171.jpg"
+[2022-07-11 07:45:21,816] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_074521_579.jpg"
+[2022-07-11 08:15:22,158] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_081521_918.jpg"
+[2022-07-11 08:45:22,700] [INFO ] [QImageWriterWorker  ] save image to file "C:\Users\bacr\Documents\img4\img_20220711_084522_443.jpg"
+[2022-07-11 08:55:46,295] [DEBUG] [VimbaThread         ] onShutdown
+[2022-07-11 08:55:46,886] [DEBUG] [VimbaThread         ] thread exit
+[2022-07-11 09:02:51,594] [DEBUG] [VimbaThread         ] setCamera
+[2022-07-11 09:02:51,596] [DEBUG] [VimbaThread         ] thread run
+[2022-07-11 09:02:52,492] [DEBUG] [LiveWidget          ] minExposure=150.182, maxExposure=9999987.219
+Exception ignored on calling ctypes callback functionTraceback (most recent call last):
+:   File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 40, in sizeHint
+<bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x000002148860EE30>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 140, in __frameHandler
+    return QSize(width, self.heightForWidth(width))
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\QResizingPixmapLabel.py", line 23, in heightForWidth
+    return self._pixmap.height() * width / self._pixmap.width()
+ZeroDivisionError: division by zero
+    self.frameCopyRaw.convert_pixel_format(PixelFormat.Rgb16)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\util\runtime_type_check.py", line 60, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 818, in convert_pixel_format
+    buf = (ctypes.c_ubyte * (img_size + anc_size))()
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x000002148860EE30>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x000002148860EE30>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x000002148860EE30>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+Exception ignored on calling ctypes callback function: <bound method Camera.__frame_cb_wrapper of <vimba.camera.Camera object at 0x000002148860EE30>>
+Traceback (most recent call last):
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 991, in __frame_cb_wrapper
+    raise e
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\camera.py", line 983, in __frame_cb_wrapper
+    context.frames_handler(self, frame)
+  File "C:\Users\bacr\PycharmProjects\QDTools\src\VimbaThread.py", line 128, in __frameHandler
+    self.frameCopy = copy.deepcopy(frame)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\site-packages\vimbapython-1.2.1-py3.10.egg\vimba\frame.py", line 624, in __deepcopy__
+    setattr(result, '_buffer', copy.deepcopy(self._buffer, memo))
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\bacr\Miniconda3\envs\QDTools\lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+MemoryError: 
+[2022-07-11 09:03:37,870] [DEBUG] [VimbaThread         ] onShutdown
+[2022-07-11 09:03:38,449] [DEBUG] [VimbaThread         ] thread exit
+[2022-07-11 09:04:52,626] [DEBUG] [MainWindow          ] closeEvent
+[2022-07-11 09:04:52,664] [DEBUG] [VimbaThread         ] onShutdown
+[2022-07-11 09:04:52,677] [DEBUG] [main                ] exit
